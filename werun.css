@@ -67,6 +67,5 @@
     }
     .werun__cardlist{
         flex-direction: column;
-        gap: 100px;
     }
 }
