@@ -1,0 +1,49 @@
+.cafe{
+    width: 100vw;
+    height: 80vh;
+
+    background-image: url("cafe.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cafe__container{
+    width: 100%;
+    height: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+}
+
+.cafe__contents{
+    display: flex;
+    flex-direction: column;
+}
+
+.cafe__title{
+    font-family: 'Pretendard-Regular';
+    font-weight: 600;
+    font-size: 80px;
+    color: white;
+    margin-bottom: 30px;
+}
+.cafe__sub{
+    font-family: 'Pretendard-Regular';
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+}
+
+@media screen and (max-width: 768px){
+    .cafe__container{
+        max-width: 400px;
+    }
+    .cafe__title{
+        font-size: 40px;
+    }
+    .cafe__sub{
+        font-size: 16px;
+    }
+}
